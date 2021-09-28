@@ -1,0 +1,164 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width:1350px;
+    height:auto;
+    background-color: white;
+    margin:auto;
+}
+.logo{
+    float: left;
+    margin-left: 20px;
+}
+.search{
+    float:right;
+    padding: 90px 90px 20px 20px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: yellowgreen;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 40px 20px 40px;
+    font-family: sans-serif;
+    font-size:medium;
+}
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+    color: black;
+}
+/*Dropdown list*/
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display:none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 22px;
+    font-family: sans-serif;
+    font-size:small;
+    background-color: darkgreen;
+}
+.drop > li > a:hover{
+    background-color: green;
+    color: black;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+
+
+.img-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.img-container h1{
+    font-size: 70px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    
+}
+#banner-img{
+
+    width: 1350px;
+    height: auto;
+    display: inline-block;
+}
+
+.main-con{
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button5 {
+    background-color: grey;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+.button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+.main-footer{
+    background-image: linear-gradient(90deg,lightblue,blue);
+    color: black;
+    width: 1350px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;   
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: teal;
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+}
+.copy p{
+    margin: 0px;
+}
